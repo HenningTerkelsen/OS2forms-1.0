@@ -8,7 +8,7 @@ author_url = http://www.bellcom.com
 screenshots[] = os2forms.png
 logo = os2froms_icon.png
 
-dependencies[i18n] = i18n 7.x-1.13
+dependencies[i18n] = i18n 7.x-2.0
 dependencies[variable] = variable 7.x-2.5
 dependencies[entity] = entity 7.x-1.6
 dependencies[views] = views 7.x-3.11
