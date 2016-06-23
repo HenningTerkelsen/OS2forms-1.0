@@ -276,7 +276,7 @@ function _os2forms_server_communication_prepare_frontend_submission($nid) {
     else if ($component['type'] == "select")
       $data[$component["form_key"]] = NULL;
     else if ($component['type'] == "date")
-      $data[$component["form_key"]] = array('day' => "", 'month' => "", "year" => '');
+      $data[$component["form_key"]] = NULL;
   }
 
   return $data;
