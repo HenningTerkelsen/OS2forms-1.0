@@ -1,8 +1,8 @@
 name = OS2Forms frontend server
 description = A Drupal distro for advanced webforms in Danish Municipalities
 machine_name = os2forms_frontend_app
-version =1.1 
-downloadable = os2forms_frontend_app 7.x-1.0
+version = 1.2
+downloadable = os2forms_frontend_app 7.x-1.2
 author = Bellcom
 author_url = http://www.bellcom.com
 screenshots[] = os2forms.png
