@@ -1,13 +1,11 @@
 name = Os2forms backend server app
 core = 7.x
 package = OS2FORMS
+php = 5.2.4
 version = 7.x-1.0
-project = OS2FORMS 
-
-apps[server] = "Bellcom"
-apps[manifests][] = "app/manifest.app"
-
+project = os2forms_backend_app
 dependencies[] = block
+dependencies[] = drupal_nemid_login
 dependencies[] = encrypt
 dependencies[] = entity
 dependencies[] = field_ui
@@ -23,10 +21,9 @@ dependencies[] = variable
 dependencies[] = views
 dependencies[] = webform
 dependencies[] = webform_submission_uuid
+apps[server] = Bellcom
+apps[manifests][] = app/manifest.app
 features[features_api][] = api:1
-features[filter][] = full_html
-features[filter][] = plain_text
-features[node_export_features][] = dda388cd-d58e-49b9-8aa4-f4313a9c7b43
-
-
-
+features[node_export_features][] = 52b05276-ab35-446d-9da4-6e530a67ca86
+features[node_export_features][] = d8064dc7-2685-4493-97c2-26b1c4f7afd6
+mtime = 1466747266

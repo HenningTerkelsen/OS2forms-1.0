@@ -24,6 +24,7 @@ dependencies[webform_submission_uuid] = webform_submission_uuid 7.x-1.x-dev
 dependencies[libraries] = libraries 7.x-2.2
 dependencies[os2forms_server_communication] = os2forms_server_communication 7.x 1.0
 dependencies[encrypt] = encrypt 7.x-2.1
+dependencies[drupal_nemid_login] = drupal_nemid_login
 
 downloadables[os2forms_backend_app 7.x-1.0] = https://github.com/OS2Forms/OS2forms-1.0/blob/master/os2forms_backend_app.zip?raw=true
 downloadables[os2forms_server_communication 7.x 1.0] = https://github.com/OS2Forms/OS2forms-1.0/blob/master/os2forms_server_communication.zip?raw=true
@@ -42,3 +43,4 @@ downloadables[uuid 7.x-1.0-beta1] = http://ftp.drupal.org/files/projects/uuid-7.
 downloadables[webform_submission_uuid 7.x-1.x-dev] = http://ftp.drupal.org/files/projects/webform_submission_uuid-7.x-1.x-dev.tar.gz 
 downloadables[libraries 7.x-2.2] = http://ftp.drupal.org/files/projects/libraries-7.x-2.2.tar.gz 
 downloadables[encrypt 7.x-2.1] = http://ftp.drupal.org/files/projects/encrypt-7.x-2.1.tar.gz
+downloadables[drupal_nemid_login] = https://github.com/bellcom/drupal_nemid_login/archive/master.zip?=raw=true

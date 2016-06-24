@@ -26,6 +26,7 @@ dependencies[node_export] = node_export 7.x-3.0
 dependencies[webform_submission_uuid] = webform_submission_uuid 7.x-1.x-dev
 dependencies[libraries] = libraries 7.x-2.2
 dependencies[print] = print 7.x-2.0
+dependencies[drupal_nemid_login] = drupal_nemid_login
 
 downloadables[os2forms_frontend_app 7.x-1.0] = https://github.com/OS2Forms/OS2forms-1.0/blob/master/os2forms_frontend_app.zip?raw=true
 downloadables[i18n 7.x-1.13] = http://ftp.drupal.org/files/projects/i18n-7.x-1.13.tar.gz
@@ -48,3 +49,4 @@ downloadables[uuid 7.x-1.0-beta1] = http://ftp.drupal.org/files/projects/uuid-7.
 downloadables[webform_submission_uuid 7.x-1.x-dev] = http://ftp.drupal.org/files/projects/webform_submission_uuid-7.x-1.x-dev.tar.gz 
 downloadables[libraries 7.x-2.2] = http://ftp.drupal.org/files/projects/libraries-7.x-2.2.tar.gz 
 downloadables[print 7.x-2.0] = http://ftp.drupal.org/files/projects/print-7.x-2.0.tar.gz
+downloadables[drupal_nemid_login] = https://github.com/bellcom/drupal_nemid_login/archive/master.zip?=raw=true
