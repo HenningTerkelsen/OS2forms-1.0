@@ -28,7 +28,7 @@ dependencies[libraries] = libraries 7.x-2.2
 dependencies[print] = print 7.x-2.0
 dependencies[drupal_nemid_login] = drupal_nemid_login
 
-downloadables[os2forms_frontend_app 7.x-1.0] = https://github.com/OS2Forms/OS2forms-1.0/blob/master/os2forms_frontend_app.zip?raw=true
+downloadables[os2forms_frontend_app 7.x-1.2] = https://github.com/OS2Forms/OS2forms-1.0/blob/master/os2forms_frontend_app.zip?raw=true
 downloadables[i18n 7.x-1.13] = http://ftp.drupal.org/files/projects/i18n-7.x-1.13.tar.gz
 downloadables[variable 7.x-2.5] = http://ftp.drupal.org/files/projects/variable-7.x-2.5.tar.gz
 downloadables[entity 7.x-1.6] = http://ftp.drupal.org/files/projects/entity-7.x-1.6.tar.gz
