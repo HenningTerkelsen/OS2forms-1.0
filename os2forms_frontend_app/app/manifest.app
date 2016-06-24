@@ -1,8 +1,8 @@
 name = OS2Forms frontend server
 description = A Drupal distro for advanced webforms in Danish Municipalities
 machine_name = os2forms_frontend_app
-version = 1.3
-downloadable = os2forms_frontend_app 7.x-1.3
+version = 1.31
+downloadable = os2forms_frontend_app 7.x-1.31
 author = Bellcom
 author_url = http://www.bellcom.com
 screenshots[] = os2forms.png
@@ -30,8 +30,9 @@ dependencies[drupal_nemid_login] = drupal_nemid_login
 dependencies[securepages] = securepages 7.x-1.0-beta2
 dependencies[webform_ssl] = webform_ssl 7.x-1.0-beta1
 dependencies[webform_encrypt] = webform_encrypt 7.x-1.1
+dependencies[encrypt] = encrypt 7.x-2.1
 
-downloadables[os2forms_frontend_app 7.x-1.2] = https://github.com/OS2Forms/OS2forms-1.0/blob/master/os2forms_frontend_app.zip?raw=true
+downloadables[os2forms_frontend_app 7.x-1.31] = https://github.com/OS2Forms/OS2forms-1.0/blob/master/os2forms_frontend_app.zip?raw=true
 downloadables[i18n 7.x-1.13] = http://ftp.drupal.org/files/projects/i18n-7.x-1.13.tar.gz
 downloadables[variable 7.x-2.5] = http://ftp.drupal.org/files/projects/variable-7.x-2.5.tar.gz
 downloadables[entity 7.x-1.6] = http://ftp.drupal.org/files/projects/entity-7.x-1.6.tar.gz
@@ -56,3 +57,4 @@ downloadables[drupal_nemid_login] = https://github.com/bellcom/drupal_nemid_logi
 downloadables[securepages 7.x-1.0-beta2] = https://ftp.drupal.org/files/projects/securepages-7.x-1.0-beta2.zip
 downloadables[webform_ssl 7.x-1.0-beta1] = https://ftp.drupal.org/files/projects/webform_ssl-7.x-1.0-beta1.zip
 downloadables[webform_encrypt 7.x-1.1] = https://ftp.drupal.org/files/projects/webform_encrypt-7.x-1.1.zip
+downloadables[encrypt 7.x-2.1] = http://ftp.drupal.org/files/projects/encrypt-7.x-2.1.tar.gz
