@@ -30,7 +30,7 @@ dependencies[webform_ssl] = webform_ssl 7.x-1.0-beta1
 dependencies[webform_encrypt] = webform_encrypt 7.x-1.1
 dependencies[encrypt] = encrypt 7.x-2.1
 
-downloadables[egbolig 7.x-1.31] = https://github.com/OS2Forms/OS2forms-1.0/blob/master/egbolig.zip?raw=true
+downloadables[egbolig 7.x-1.0-beta1] = https://github.com/OS2Forms/OS2forms-1.0/blob/master/egbolig.zip?raw=true
 downloadables[i18n 7.x-1.13] = http://ftp.drupal.org/files/projects/i18n-7.x-1.13.tar.gz
 downloadables[variable 7.x-2.5] = http://ftp.drupal.org/files/projects/variable-7.x-2.5.tar.gz
 downloadables[entity 7.x-1.6] = http://ftp.drupal.org/files/projects/entity-7.x-1.6.tar.gz
