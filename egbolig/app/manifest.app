@@ -31,6 +31,7 @@ dependencies[securepages] = securepages 7.x-1.0-beta2
 dependencies[webform_ssl] = webform_ssl 7.x-1.0-beta1
 dependencies[webform_encrypt] = webform_encrypt 7.x-1.1
 dependencies[encrypt] = encrypt 7.x-2.1
+dependencies[webform_bt_layout] = webform_bt_layout 7.x-3.x-dev
 
 downloadables[egbolig 7.x-1.0-beta1] = https://github.com/OS2Forms/OS2forms-1.0/blob/master/egbolig.zip?raw=true
 downloadables[i18n 7.x-1.13] = http://ftp.drupal.org/files/projects/i18n-7.x-1.13.tar.gz
@@ -58,3 +59,4 @@ downloadables[securepages 7.x-1.0-beta2] = https://ftp.drupal.org/files/projects
 downloadables[webform_ssl 7.x-1.0-beta1] = https://ftp.drupal.org/files/projects/webform_ssl-7.x-1.0-beta1.zip
 downloadables[webform_encrypt 7.x-1.1] = https://ftp.drupal.org/files/projects/webform_encrypt-7.x-1.1.zip
 downloadables[encrypt 7.x-2.1] = http://ftp.drupal.org/files/projects/encrypt-7.x-2.1.tar.gz
+downloadables[webform_bt_layout 7.x-3.x-dev] = https://ftp.drupal.org/files/projects/webform_bt_layout-7.x-3.x-dev.tar.gz
