@@ -3,6 +3,7 @@ description = EGbolig webservice module.
 core = 7.x
 package = OS2FORMS
 version = 7.x-1.0-beta1
+project = egbolig
 dependencies[] = accommodation
 dependencies[] = ctools
 dependencies[] = drupal_nemid_login
@@ -14,6 +15,8 @@ dependencies[] = node_export_features
 dependencies[] = profession
 dependencies[] = strongarm
 dependencies[] = text
+apps[server] = Bellcom
+apps[manifests][] = app/manifest.app
 features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:2
 features[field_instance][] = node-webform-field_body
@@ -22,5 +25,6 @@ features[node_export_features][] = d8064dc7-2685-4493-97c2-26b1c4f7afd6
 features[variable][] = comment_webform
 features[variable][] = field_bundle_settings_node__webform
 features[variable][] = pathauto_node_webform_pattern
-features_exclude[dependencies][ballerup_field_bases] = ballerup_field_bases
 files[] = egbolig.module
+
+
