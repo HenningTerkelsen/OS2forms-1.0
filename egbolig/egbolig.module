@@ -57,7 +57,7 @@ function egbolig_get_previous_submission_message($form, $form_state) {
 function egbolig_form_alter(&$form, &$form_state, $form_id,$cpr = null) {
   //cannot fully use $form_id as it's dependent on node ID
   if (strpos($form_id, 'webform_client_form') > -1) {
-    if ($form['#node']->type == 'webform' && strpos($form['#action'],'/indhold/eg-bolig-ansoegningsskema') > -1) {
+    if ($form['#node']->type == 'webform' && $form['#node']->title == 'EG-Bolig ansøgningsskema') {
       $cpr = $_GET['cpr'];
       if ($cpr) {
         //TODO: add security check that this user can access this CPR submitted data
