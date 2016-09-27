@@ -25,7 +25,7 @@ function egbolig_node_export_features_default() {
       \'name\' => \'admin\',
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
-      \'path\' => NULL,
+      \'path\' => \'indhold/eg-bolig-ansoegningsskema\',
       \'picture\' => \'0\',
       \'print_html_display\' => 1,
       \'print_html_display_comment\' => 0,

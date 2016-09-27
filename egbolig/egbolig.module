@@ -40,13 +40,14 @@ function egbolig_settings() {
 }
 
 function egbolig_get_previous_submission_message($form, $form_state) {
+  global $base_root;
   $cpr = $form_state['values']['submitted']['row1']['col1']['basic_data']['cpr'];
 
   $member = egbolig_ws_get_member_by_cpr($cpr);
 
   $message = '';
   if ($member) {
-    $edit_link = l(t('Edit'), $form['#action'], ['query' => ['cpr' => $cpr], 'attributes' => ['target'=>'_blank']]);
+    $edit_link = l(t('Edit'), $base_root . $form['#action'], ['query' => ['cpr' => $cpr], 'attributes' => ['target'=>'_blank']]);
     $message = "<p>Submission for $cpr exists. $edit_link / Delete it</p>";
   }
   $command = ajax_command_html('#js-previous-submission-message', $message);
