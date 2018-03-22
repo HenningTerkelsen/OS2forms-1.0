@@ -4,6 +4,9 @@ A Drupal distro for advanced webforms in Danish Municipalities
 ## Contributing municipalities
 * Ballerup Kommune
 
+## Documentation
+Documentation wiki (https://github.com/OS2Forms/OS2forms-1.0/wiki)
+
 ## OS2forms Submodules
 
 os2forms_frontend (https://github.com/OS2Forms/os2forms_frontend)
