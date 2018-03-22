@@ -1,5 +1,0 @@
-name = Education Application
-description =  education application module.
-core = 7.x
-files[] = education.module
-dependencies[] = egbolig
