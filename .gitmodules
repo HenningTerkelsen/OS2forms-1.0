@@ -1,0 +1,18 @@
+[submodule "public_html/sites/all/modules/drupal_nemid"]
+	path = public_html/sites/all/modules/drupal_nemid
+	url = https://github.com/bellcom/drupal_nemid
+[submodule "public_html/sites/all/modules/os2forms/os2forms_settings"]
+	path = public_html/sites/all/modules/os2forms/os2forms_settings
+	url = https://github.com/OS2Forms/os2forms_settings
+[submodule "public_html/sites/all/modules/os2forms/egbolig_webform"]
+	path = public_html/sites/all/modules/os2forms/egbolig_webform
+	url = https://github.com/OS2Forms/egbolig_webform
+[submodule "public_html/sites/all/modules/os2forms/os2forms_forntend"]
+	path = public_html/sites/all/modules/os2forms/os2forms_forntend
+	url = https://github.com/OS2Forms/os2forms_frontend
+[submodule "public_html/sites/all/modules/os2forms/os2forms_backend"]
+	path = public_html/sites/all/modules/os2forms/os2forms_backend
+	url = https://github.com/OS2Forms/os2forms_backend
+[submodule "public_html/sites/all/modules/os2forms/borger_formularer"]
+	path = public_html/sites/all/modules/os2forms/borger_formularer
+	url = https://github.com/OS2Forms/borger_formularer
