@@ -1,7 +1,7 @@
 # OS2forms-1.0
 A Drupal distro for advanced webforms in Danish Municipalities
 
-OS2forms Submodules
+# OS2forms Submodules
 
 os2forms_frontend (https://github.com/OS2Forms/os2forms_frontend)
 
@@ -14,10 +14,12 @@ os2forms_settings (https://github.com/OS2Forms/os2forms_settings)
 os2forms_backend (https://github.com/OS2Forms/os2forms_backend
 
 
-OS2forms modules in process to be contributed to drupal.org
+# OS2forms modules in process to be contributed to drupal.org
 
 drupal_nemid (https://github.com/bellcom/drupal_nemid)
 
+
+# Project management
 
 The project backlog / tasks and planing progress can be followed here in jira. 
 
