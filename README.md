@@ -40,7 +40,7 @@ git clone https://github.com/OS2Forms/OS2forms-1.0
 Add submodules using folloing commands
 ```
 git submodule init
-git submodule ubdate
+git submodule update
 ```
 Install project by accessing to url fe. os2forms.dk/install.php
 
@@ -50,7 +50,7 @@ For backend server:
 
 * os2forms_backend
 
-For frontent server: 
+For frontend server: 
 
 * os2forms_frontend, 
 * egbolig_webform, 
