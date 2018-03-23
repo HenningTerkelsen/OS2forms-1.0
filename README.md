@@ -44,7 +44,8 @@ git submodule ubdate
 ```
 Install project by accessing to url fe. os2forms.dk/install.php
 
-Enable requierd modules 
+Enable required modules
 
 For backend server: os2forms_backend
+
 For frontent server: os2forms_frontend, egbolig_webform, borger_formularer
